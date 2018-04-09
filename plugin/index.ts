@@ -6,7 +6,7 @@ const MarkDown = require('./models/Markdown.ts');
 const mdTableConverter = require('./md-converters/table.converter.ts');
 
 function isMarkdownHandler(target) {
-    return true;
+    return target.endsWith('.md');
 }
 
 function markdownProcessor(doc, reader, target, attrs) {
