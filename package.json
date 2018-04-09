@@ -1,20 +1,19 @@
 {
-  "name": "adoc-ext-include-markdown",
-  "version": "1.0.0",
+  "name": "@asciidoctor-extender/adoc-ext-include-markdown",
+  "version": "0.1.0-BETA",
   "description": "An asciidoctor.js extension for markdown inclusion. (plugin for asciidoctor.js-extender)",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "Asciidoc",
-    "asciidoctor.js",
-    "markdown",
-    "extension",
-    "documentation"
-  ],
   "author": "Richard Rijnberk <r.rijnberk@gmail.com>",
   "license": "MIT",
+  "keywords": [
+    "AsciiDoctor",
+    "AsciiDoctor.js",
+    "Documenting",
+    "Extending",
+    "Extension",
+    "Markdown",
+    "NodeJS",
+    "Plugin"
+  ],
   "dependencies": {
     "fs-extra": "^5.0.0"
   }
